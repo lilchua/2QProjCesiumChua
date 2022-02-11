@@ -1,0 +1,207 @@
+/*spacing for links*/
+a {
+    display: inline block;
+    text-align: right;
+    margin-left: 0.75%;
+}
+
+/*to transform the nav bar when it is hovered*/
+nav a:hover img {
+    transform: scale(1.2);
+    transition: all 0.4s;
+}
+
+/*for the sprite1 (facebook)*/
+.sprite1 {
+    background: url('../images/icon.png') no-repeat -151px -10px;
+	width: 38px;
+	height: 39px;
+    position: fixed;
+    top: 90%;
+    left: 87%;
+    z-index: 5;
+    border-radius: 50%;
+}
+
+/*for the sprite1 (facebook) when hovered*/
+.sprite1:hover {
+    background: url('../images/icon.png') no-repeat -151px -148px;
+	width: 38px;
+	height: 39px;
+    position: fixed;
+    top: 90%;
+    left: 87%;
+    z-index: 5;
+    border-radius: 50%;
+}
+
+/*for the sprite2 (youtube)*/
+.sprite2 {
+    background: url('../images/icon.png') no-repeat -197px -102px;
+	width: 38px;
+	height: 39px;
+    position: fixed;
+    top: 90%;
+    left: 91%;
+    z-index: 6;
+    border-radius: 50%;
+}
+
+/*for the sprite2 (youtube) when hovered*/
+.sprite2:hover {
+    background: url('../images/icon.png') no-repeat -197px -240px;
+	width: 38px;
+	height: 39px;
+    position: fixed;
+    top: 90%;
+    left: 91%;
+    z-index: 6;
+    border-radius: 50%;
+}
+
+/*for the sprite3 (twitter)*/
+.sprite3 {
+    background: url('../images/icon.png') no-repeat -105px -102px;
+	width: 38px;
+	height: 39px;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    z-index: 7;
+    border-radius: 50%;
+}
+
+/*for the sprite3 (twitter) when hovered*/
+.sprite3:hover {
+    background: url('../images/icon.png') no-repeat -105px -240px;
+	width: 38px;
+	height: 39px;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    z-index: 7;
+    border-radius: 50%;
+}
+
+/*to transform the header bar of page 4 when it is hovered*/
+header a:hover img {
+    transform: scale(1.125);
+    transition: all 0.4s;
+}
+
+/*Page4 background*/
+body {
+    background: url(../images/ravine.jpg) center fixed no-repeat;
+    background-size: 100% 100%;
+}
+
+/*class to indent left a text*/
+.indentleft {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 35%;
+}
+
+/*the color and border scheme of my text*/
+.boxleft{
+    border-style: solid;
+    text-align: justify;
+    width: 45%;
+    overflow: auto;
+    margin-left: 9.5%;
+    background-color:rgba(230, 230, 250, 0.6);
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+/*class for page 4*/
+.hder{
+    margin-left: 9.5%;
+    color: white;
+    font-size: 225%;
+}
+
+/*another class for page 4*/
+.title{
+    border-style: none;
+    color: white;
+    font-size: 155%;
+}
+
+/*another class for page 4*/
+.title1{
+    margin-left: 9.5%;
+    border-style: none;
+    color: white;
+    font-size: 200%;
+}
+
+.title2{
+    margin-left: 9.5%;
+    border-style: none;
+    color: white;
+    font-size: 150%;
+}
+
+/*to place all pictures with class .pictureleft to the left*/
+.pictureleft {
+    margin-left: 57%;
+    width: 39%;
+    height: 39%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: hidden;
+    z-index: 2;
+}
+
+/*for all text in page 2a, page 2b, page 2c, and page 2d*/
+.boxbook {
+    border-style: none;
+    text-align: justify;
+    display: block;
+    position: fixed;
+    width: 30%;
+    overflow: auto;
+    color: black;
+    font-size: 100%;
+}
+
+.headerbook {
+    border-style: none;
+    display: block;
+    position: fixed;
+    color: black;
+    font-size: 200%;
+}
+
+.invisbuttonleft {
+    background:transparent;
+    border: none;
+    position: fixed; 
+    top: 88.5%; 
+    left: 15%;
+    z-index: 10;
+    outline:none;
+    display:block;
+    height:30px;
+    width:66px;
+    cursor:pointer;
+}
+
+.invisbuttonright {
+    background:transparent;
+    border: none;
+    position: fixed; 
+    top: 87.5%; 
+    left: 75%;
+    z-index: 10;
+    outline:none;
+    display:block;
+    height:30px;
+    width:66px;
+    cursor:pointer;
+}
